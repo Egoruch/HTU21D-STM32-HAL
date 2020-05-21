@@ -50,8 +50,8 @@ uint8_t HTU21D_RX_Data[3];
 float HTU21D_Temperature;
 float HTU21D_Humidity;
 uint16_t HTU21D_ADC_Raw;
-const uint8_t HTU21D_Temp_Cmd = 0xE3;
-const uint8_t HTU21D_Humi_Cmd = 0xE5;
+uint8_t HTU21D_Temp_Cmd = 0xE3;
+uint8_t HTU21D_Humi_Cmd = 0xE5;
 #define HTU21D_Adress (0x40 << 1)
 
 #define HTU21D_POLY 0x13100
